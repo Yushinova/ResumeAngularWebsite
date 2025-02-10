@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+.text-gradient {
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .align-items-center{
+    justify-content: center;
+  }
+  .pic-div{
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    width: 30vw;
+    height: 30vw;
+    align-self: center;
+  }
+.top-div{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.badge{
+  width: 70%;
+  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+}
+.text-uppercase{
+  font-size: 2vw;
+}
