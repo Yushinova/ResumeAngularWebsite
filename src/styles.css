@@ -25,3 +25,9 @@
 .text-uppercase{
   font-size: 2vw;
 }
+@media (max-width: 600px) {
+  .pic-div{
+    height: 40vw;
+    width: 50vw;
+  }
+}
